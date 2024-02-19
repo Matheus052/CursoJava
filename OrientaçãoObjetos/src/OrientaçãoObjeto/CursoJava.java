@@ -1,11 +1,15 @@
 package OrientaçãoObjeto;
 
+import javax.swing.JOptionPane;
+
 import Objeto.Aluno;
 
 public class CursoJava {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
+	
 		
+	
 		Aluno aluno1 = new Aluno();
 		
 		aluno1.setNome("Matheus");
@@ -28,6 +32,8 @@ public class CursoJava {
 		System.out.println("Media escolar = " + aluno1.getMediaNota());
 		System.out.println("Status de Aprovação = " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
 		
+		
 	}
 
 }
+
