@@ -22,7 +22,7 @@ public static void main(String[] args) {
 		aluno1.setNota2(10);
 		aluno1.setNota3(10);
 		aluno1.setNota4(100);
-		
+		dsdsd
 		System.out.println("Nome = " + aluno1.getNome());
 		System.out.println("Idade = " + aluno1.getIdade());
 		System.out.println("Data Nascimento = " + aluno1.getDataNascimento());
