@@ -27,9 +27,8 @@ public static void main(String[] args) {
 		System.out.println("Nome da escola = " + aluno1.getNomeEscola());
 		System.out.println("Media escolar = " + aluno1.getMediaNota());
 		System.out.println("Status de Aprovação = " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
-		
-		
-	}
+	
+		}
 
 }
 
