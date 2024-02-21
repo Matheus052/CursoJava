@@ -22,15 +22,15 @@ public static void main(String[] args) {
 		Aluno aluno1 = new Aluno();
 		
 		aluno1.setNome(nome);
-		aluno1.setIdade(Integer.valueOf(idade));
+		aluno1.setIdade(Integer.valueOf(idade)); /*"Transforma" int em string*/
 		aluno1.setDataNascimento(dataNascimento);
 		aluno1.setNomeMae(nomeMae);
 		aluno1.setNomePai(nomePai);
 		aluno1.setNomeEscola(nomeEscola);
-		aluno1.setNota1(Double.parseDouble(nota1));
-		aluno1.setNota2(Double.parseDouble(nota2));
-		aluno1.setNota3(Double.parseDouble(nota3));
-		aluno1.setNota4(Double.parseDouble(nota4));
+		aluno1.setNota1(Double.parseDouble(nota1));/*"Tranforma" double em string*/
+		aluno1.setNota2(Double.parseDouble(nota2));/*"Tranforma" double em string*/
+		aluno1.setNota3(Double.parseDouble(nota3));/*"Tranforma" double em string*/
+		aluno1.setNota4(Double.parseDouble(nota4));/*"Tranforma" double em string*/
 	
 		System.out.println("Nome = " + aluno1.getNome());
 		System.out.println("Idade = " + aluno1.getIdade());
